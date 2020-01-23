@@ -11,6 +11,7 @@
 .columna .btn {
     min-width: 200px;
     margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 .footer h6 {
@@ -19,6 +20,8 @@
 
 .footer img {
     border-radius: 100%;
-    max-width: 40px;
+    min-width: 40px;
+    max-height: 45px;
     margin-bottom: 10px;
+    margin-left: 12px;
 }
