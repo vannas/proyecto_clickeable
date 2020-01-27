@@ -1,0 +1,62 @@
+.header {
+    margin-top: 20px;;
+    margin-bottom: -2px;
+}
+
+.entry {
+	width: 100%;
+	background: #151515;
+}
+
+.entry-sm {
+	position: relative;
+    overflow: hidden;
+    font-family: georgia, serif;
+    font-size: 4.5rem;
+    display: block;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #FFFFFF;
+    opacity: 0;
+}
+
+.mainnovedad .fotito-sm img {
+    overflow: hidden;
+    background-image: url(img/escher_bg.png);
+    max-height: 50px;
+    width: 100%;
+}
+
+.entry-text {
+	padding: 1.8rem 2.8rem 3.6rem;
+    background-color: white;
+    color:slategray;
+}
+
+.entry-wrap .entry-header .entry-title {
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin-bottom: 1.8rem;	
+}
+.entry-header .entry-title a,
+.entry-header .entry-title a:visited {
+    color: #038b57;
+    }
+
+.footer h6 {
+    display: inline-block;
+}
+
+.footer img {
+    border-radius: 100%;
+    min-width: 40px;
+    max-height: 45px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
