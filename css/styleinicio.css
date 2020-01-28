@@ -1,0 +1,33 @@
+.carrusel {
+    display: inline-block;
+    }
+
+    .carrusel .carousel-item img {
+        max-width: 450px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 15px;
+        display:inline-block;
+        }
+
+.jumbo {
+    display:inline-block;
+}
+
+.columna .btn {
+    min-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.footer h6 {
+    display: inline-block;
+}
+
+.footer img {
+    border-radius: 100%;
+    min-width: 40px;
+    max-height: 45px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}

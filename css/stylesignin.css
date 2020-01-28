@@ -1,0 +1,17 @@
+#signin{
+    padding-top: 80px;
+    background-color: white;
+}
+    #signin label{
+        margin-bottom: 20px;
+    }
+    #signin button{
+        margin-bottom: 25px;
+    }
+    #inicio{
+        width: 30%;
+        height: 40%;
+        display: inline-block;
+        margin-left: 40%;
+        margin-top: 10%
+    }
