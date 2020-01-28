@@ -29,7 +29,11 @@
 .mainnovedad .fotito-sm img {
     overflow: hidden;
     background-image: url(img/escher_bg.png);
+<<<<<<< HEAD
     max-height: 20px;
+=======
+    max-height: 50px;
+>>>>>>> 182371133164786f1073b1d2dd257419c6f33057
     width: 100%;
 }
 
@@ -55,8 +59,13 @@
 
 .footer img {
     border-radius: 100%;
+<<<<<<< HEAD
     min-width: 20px;
     max-height: 35px;
+=======
+    min-width: 40px;
+    max-height: 45px;
+>>>>>>> 182371133164786f1073b1d2dd257419c6f33057
     margin-bottom: 10px;
     margin-left: 12px;
 }

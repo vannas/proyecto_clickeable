@@ -1,4 +1,5 @@
 .carrusel {
+<<<<<<< HEAD
     display: inline-block;
     }
 
@@ -18,6 +19,21 @@
     min-width: 200px;
     margin-bottom: 20px;
     margin-top: 10px;
+=======
+    display: block;
+    }
+
+    .carrusel .carousel-item img {
+        max-height: 400px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        }
+
+.columna .btn {
+    min-width: 200px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+>>>>>>> 182371133164786f1073b1d2dd257419c6f33057
 }
 
 .footer h6 {
