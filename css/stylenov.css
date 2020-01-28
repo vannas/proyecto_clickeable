@@ -1,46 +1,55 @@
 .header {
-    margin-top: 20px;;
     margin-bottom: -2px;
+    width: 100%;
 }
 
+.entradas {
+    display: block;
+    }
+
+.mainnovedad .imagemain img {
+    max-width: 30%;
+    z-index: -1;
+    position:relative;
+        top: -80px;
+    }
+
 .entry {
-	width: 100%;
-	background: #151515;
-}
+	width: 80%;
+    position: relative;
+        top: -105px;
+    opacity: 90%;
+    max-height: 900px;
+    }
+    
 
 .entry-sm {
 	position: relative;
     overflow: hidden;
     font-family: georgia, serif;
-    font-size: 4.5rem;
+    font-size: 2rem;
     display: block;
     height: 90px;
     width: 90px;
-    line-height: 90px;
-    margin-left: -45px;
-    margin-top: -45px;
+    margin-left:-5px;
+    margin-top:-5px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+        left:50%;
+        top:50%;
     color: #FFFFFF;
-    opacity: 0;
-}
+    }
 
 .mainnovedad .fotito-sm img {
     overflow: hidden;
-    background-image: url(img/escher_bg.png);
-<<<<<<< HEAD
+    background-image: url(img/backg/stripes.jpg);
     max-height: 20px;
-=======
-    max-height: 50px;
->>>>>>> 182371133164786f1073b1d2dd257419c6f33057
     width: 100%;
 }
 
 .entry-text {
-	padding: 1.8rem 2.8rem 3.6rem;
+	padding: 6%;
     background-color: white;
-    color:slategray;
+    color:darkslategrey;
 }
 
 .entry-wrap .entry-header .entry-title {
@@ -48,24 +57,18 @@
 	line-height: 1.5;
 	margin-bottom: 1.8rem;	
 }
-.entry-header .entry-title a,
-.entry-header .entry-title a:visited {
-    color: #038b57;
+.entry-header .entry-title a, .entry-header .entry-title a:visited {
+    color: #0f95be;
     }
 
 .footer h6 {
     display: inline-block;
-}
+    }
 
 .footer img {
     border-radius: 100%;
-<<<<<<< HEAD
     min-width: 20px;
     max-height: 35px;
-=======
-    min-width: 40px;
-    max-height: 45px;
->>>>>>> 182371133164786f1073b1d2dd257419c6f33057
     margin-bottom: 10px;
     margin-left: 12px;
-}
+    }

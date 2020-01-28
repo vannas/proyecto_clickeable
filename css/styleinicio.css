@@ -1,49 +1,68 @@
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.navbar {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+.navbar a {
+    margin-left: 10px;
+    }
+
 .carrusel {
-<<<<<<< HEAD
     display: inline-block;
+    margin-top: 30px;
     }
 
     .carrusel .carousel-item img {
-        max-width: 450px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        margin-left: 15px;
+        max-width: 500px;
+        margin-left: 30px;
         display:inline-block;
+        vertical-align: top;
         }
 
-.jumbo {
+.jumbotron {
     display:inline-block;
-}
+    vertical-align: top;
+     }
 
-.columna .btn {
-    min-width: 200px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-=======
-    display: block;
+    .jumbotron h3 {
+        position: relative;
+            top: -25px;
+            left: 50%;
+    } 
+
+    .jumbotron hr {
+        min-height: 3px;
+        position: relative;
+            top: -25px;
     }
 
-    .carrusel .carousel-item img {
-        max-height: 400px;
-        margin-bottom: 50px;
-        margin-top: 50px;
+    .jumbotron .botones {
+        margin-top: 5px;
+        max-height: 1em;
         }
 
-.columna .btn {
-    min-width: 200px;
-    margin-bottom: 20px;
-    margin-top: 60px;
->>>>>>> 182371133164786f1073b1d2dd257419c6f33057
-}
+    .jumbotron p {
+        font-weight: lighter;
+        text-align: right;
+        position: relative;
+            top: -10px;
+        }
 
 .footer h6 {
     display: inline-block;
-}
+    }
 
 .footer img {
     border-radius: 100%;
     min-width: 40px;
     max-height: 45px;
+    margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 12px;
-}
+    }
