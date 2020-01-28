@@ -44,7 +44,7 @@
     background-image: url(img/backg/stripes.jpg);
     max-height: 20px;
     width: 100%;
-}
+    }
 
 .entry-text {
 	padding: 6%;
@@ -56,7 +56,8 @@
 	font-size: 2.5rem;
 	line-height: 1.5;
 	margin-bottom: 1.8rem;	
-}
+    }
+
 .entry-header .entry-title a, .entry-header .entry-title a:visited {
     color: #0f95be;
     }
