@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/perfil.css">
+</head>
+<body>
+    <div class="class-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">App Social Pro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Inicio</span></a>
+              </div>
+
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="">Usuarios</span></a>
+              </div>
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Perfil</span></a>
+              </div>
+            </div>
+            <form class="form-inline">
+                <button class="btn btn-outline-success" type="button">Cerrar Sesión</button>
+            </form>
+        </nav><br>
+        <div class="row">
+            <div class="offset-md-1 col-md-12">
+                <h4>Editar Perfil</h4>
+            </div>
+        </div> <br>
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="inputAddress">Email</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Editar email">
+                  </div>
+                
+                <div class="form-group">
+                  <label for="inputAddress">Nombres</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Editar nombre">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Apellido Paterno</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Editar apellido">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">Apellido Materno</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Editar apellido">
+                      </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Celular</label>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping">+56</span>
+                        </div>
+                        <input type="text" class="form-control" aria-describedby="addon-wrapping" placeholder="Editar celular">
+                      </div>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputState">Región</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Regiones de Chile...</option>
+                      <option>Región de Arica y Parinacota</option>
+                      <option>Región de Tarapacá</option>
+                      <option>Región de Antofagasta</option>
+                      <option>Región de Atacama</option>
+                      <option>Región de Coquimbo</option>
+                      <option>Región de Valparaiso</option>
+                      <option>Región Metropolitana de Santiago</option>
+                      <option>Región del Libertador General Bernardo O'Higgins</option>
+                      <option>Región del Maule</option>
+                      <option>Región de Ñuble</option>
+                      <option>Región del Biobío</option>
+                      <option>Región de La Araucanía</option>
+                      <option>Región de Los Ríos</option>
+                      <option>Región de Los Lagos</option>
+                      <option>Región de Aysén del General Carlos Ibáñez del Campo</option>
+                      <option>Región de Magallanes y de la Antártica Chilena</option>                        
+                    </select>                        
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputState">Ciudad</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>                        
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Guardar</button> <!-- Si puedes centrar el boton seria bkn -->
+                </form>
+                <div class="form-row">                        
+                    <div class="form-group col-md-6">                          
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Editar contraseña">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Confirm Password</label>
+                      <input type="password" class="form-control" id="inputPassword4" placeholder="Validar contraseña">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Actualizar contraseña</button> <!-- Si puedes centrar el boton seria bkn -->
+                  </form>
+                  </div>
+        </div>          
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+</body>
+</html>
