@@ -1,30 +1,61 @@
+
+.container-fluid {
+    max-width: 100%;
+    position:relative;
+    overflow: hidden;
+}
+
+#butnav {
+    text-decoration: none;
+    }
+
 .extranav {
     display:none;
 }
 
-.cuerpocentro .background img {
-    opacity: 0.65;
+.logosh img {
+    max-height: 10%;
+    max-width: 10%;
+    border-radius: 100%;
+    box-shadow: grey 4px 2px transparent;
+    display: inline-block;
+    position:relative;
+        left:50%;
+}
+
+.cuerpocentral .background img {
+    display: inline-block;   
+    opacity: 0.3;
     z-index:-4;
-    display:inline-block;
+    overflow: hidden; 
     position:absolute;
-        left:42%;
-        top:16%;
-    max-width: 60%;
-    overflow: hidden;
+        top:12%;
+        left:12%;
+    max-width: 70%;    
+    }
+
+h1, p {
+    display: inline-block; 
+    box-shadow: black 3px 3px transparent;
+    position: relative;
+        top:-50px;
+    }
+
+.cuerpocentral .bloqueboton {
+    position:relative;
+        top:0%;
 }
 
-.cuerpocentro h2 {
-    margin-top: 3%;
-    margin-bottom: 25px;
-}
-
-.cuerpocentro button {
-    display: block;
+.acciones button {
+    width: 50%;
+    position: relative;
+        top:-40px;
 }
 
 .footer {
     margin-top: 20px;
-}
+    overflow:hidden;
+    }
 
 .footer h6 {
     display: inline-block;
@@ -84,5 +115,3 @@
             top:-40px;
     }
 }
-
-
