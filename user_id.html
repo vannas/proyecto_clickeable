@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Información del Usuario</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/userid.css">
 </head>
 <body>
     <div class="class-fluid">
@@ -32,6 +32,81 @@
                     <button class="btn btn-outline-success" type="button">Cerrar Sesión</button>
                 </form>
             </nav>
+        </div>
+        <div class="ident">
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <h5>[Nombre] + [Apellido Paterno] + [Apellido Materno]</h5>
+                </div>
+                <div class="offset-md-1 col-md-10">
+                    <table>
+                        <tr>                      
+                            <th>Fecha de Registro</th>
+                            <td>:</td>                      
+                            <td>21-2-20</td>                      
+                        </tr>                      
+                        <tr>                      
+                            <th>ID del Usuario</th>
+                            <td>:</td>
+                            <td>#ID</td>                      
+                        </tr>                      
+                        <tr>                      
+                            <th>Email</th> 
+                            <td>:</td>                     
+                            <td>ejemplo@ejemplo.com</td>                      
+                        </tr>                      
+                        <tr>                      
+                            <th>Celular</th> 
+                            <td>:</td>                     
+                            <td>+56XXXXXXXXX</td>                      
+                        </tr>
+                        <tr>                      
+                            <th>Región</th>                      
+                            <td>:</td>
+                            <td>[region]</td>                       
+                        </tr>
+                        <tr>                      
+                            <th>Ciudad</th>
+                            <td>:</td>                      
+                            <td>[ciudad]</td>                      
+                        <tr>
+                        <tr>                      
+                            <th>Descripción</th>  
+                            <td>:</td>                    
+                            <td>[descripcion]</td>                      
+                        </tr>                      
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="mensaje">
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <h5>Deja un mensaje para [nombre]</h5>
+                </div>
+                <div class="offset-md-1 col-md-10">
+                    <form class="was-">
+                        <div class="mb-3">
+                          <label for="Textarea"></label>
+                          <textarea class="form-control" rows="3"></textarea>
+                        </div>                        
+                    </form>
+                </div>
+                <div class="offset-md-10 col-md-2">
+                    <button type="submit" class="btn btn-primary">Postear</button>
+                </div>
+                <div class="offset-md-1 col-md-10">
+                    <form class="was-">
+                        <div class="mb-3">
+                          <label for="Textarea">[nombre] te escribio</label>
+                          <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+                        </div>                        
+                    </form>
+                </div>
+                <div class="offset-md-10 col-md-2">
+                    <button type="submit" class="btn btn-primary">Postear</button>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
