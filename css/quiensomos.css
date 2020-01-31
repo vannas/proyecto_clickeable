@@ -1,55 +1,27 @@
-.container-fluid {
-    max-width: 100%;
-    position:relative;
-    overflow: hidden;
-}
-
 .navbar a {
     text-decoration: none;
     color:white;
     }
 
-.extranav {
-    display:none;
-}
-
-.logosh img {
+#background img {
     display: inline-block;
-    position:relative;
-        left:80%;
-    max-height: 10%;
-    max-width: 10%;
-    border-radius: 100%;
-    z-index: -2;
-}
-
-.cuerpocentral h1, p {
-    display: inline-block; 
-    box-shadow: black 3px 3px transparent;
-    position: relative;
-        top:-50px;
-    }
-
-.cuerpocentral .bloqueboton {
-    position:relative;
-        top:0%;
-}
-
-.acciones button {
-    width: 50%;
-    position: relative;
-        top:-40px;
-}
+    position: fixed;
+        top:10%;
+        left:42%;
+    overflow: hidden;
+    z-index: -4;
+    max-width: 800px;
+    }  
 
 .footer {
     margin-top: 20px;
     overflow:hidden;
     }
-
+    
 .footer h6 {
     display: inline-block;
     }
-
+    
 .footer img {
     border-radius: 100%;
     min-width: 20px;
@@ -57,50 +29,50 @@
     margin-bottom: 10px;
     margin-left: 12px;
     }
-
+    
 @media screen and (max-width:768px) {
     .breadcumbs-wrap {
         display:none;
     }
-
+    
     #search {
-        display:none;
-    }
-
-    #butnav {
         display:none;
         }
     
+    #butnav {
+        display:none;
+        }
+        
     .extranav {
         display:block;
-    }
-        
+        }
+            
     .navbar-toggler {
         display: block;
         position:absolute;
             right:0px;
         z-index: 2;
-    }
+        }
     .cuerpocentral .background img {
         opacity: 0,3;
         min-width: 100%;
         position:fixed;
-    }
+        }
     .logosh img {
         min-width: 80px;
         position:relative;
             left:50%;
             top:10px;
-    }
-
+        }
+    
     .bienvenida h1, p {
         position: relative;
             top:-50px;
-    }
-
+        }
+    
     .acciones button {
         width: 100%;
         position: relative;
             top:-40px;
+        }
     }
-}

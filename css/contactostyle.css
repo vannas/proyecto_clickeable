@@ -2,6 +2,11 @@
     display:none;
 }
 
+.navbar a {
+    text-decoration: none;
+    color:white;
+    }
+
 .cuerpocentro .background img {
     opacity: 0.65;
     z-index:-4;
@@ -43,11 +48,11 @@
         display:none;
     }
 
-    #search {
+    .search {
         display:none;
     }
 
-    #butnav {
+    .butnav {
         display:none;
         }
     
