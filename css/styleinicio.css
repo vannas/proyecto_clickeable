@@ -34,6 +34,7 @@
 .jumbotron {
     display:inline-block;
     vertical-align: top;
+    max-height: 500px;
      }
 
     .jumbotron h3 {
@@ -59,6 +60,13 @@
         position: relative;
             top: -10px;
         }
+
+    .jumbotron .getapp {
+        display: inline-block;
+        position: relative;
+            left:30%;
+        
+    }
 
 .footer h6 {
     display: inline-block;

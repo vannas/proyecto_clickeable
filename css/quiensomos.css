@@ -3,19 +3,19 @@
     color:white;
     }
 
-#background img {
+.maincuerpo img {
     display: inline-block;
-    position: fixed;
+    position: relative;
         top:10%;
-        left:42%;
+        left:25%;
     overflow: hidden;
-    z-index: -4;
-    max-width: 800px;
+    
     }  
 
 .footer {
     margin-top: 20px;
     overflow:hidden;
+    margin-left: 35%;
     }
     
 .footer h6 {
