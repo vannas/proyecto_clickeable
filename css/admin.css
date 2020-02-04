@@ -1,3 +1,14 @@
 #admin{
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header h5{
+    color: #007bff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tablaadmin{
+    font-size: 90%;
+    text-align: center;
 }

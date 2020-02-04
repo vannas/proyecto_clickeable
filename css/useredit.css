@@ -6,3 +6,14 @@
 .main h6{
     padding-bottom: 3%;
 }
+
+.header{
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado h5{
+    color: #007bff;
+}
+h6{
+    color: red;
+}
